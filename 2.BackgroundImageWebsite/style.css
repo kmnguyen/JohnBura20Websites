@@ -1,0 +1,68 @@
+body{
+    background-image: url(http://www.publicdomainpictures.net/pictures/110000/velka/the-road-1421516337IfY.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-size: cover;
+
+    font-family: "Abel", sans-serif;
+    font-size: 20px;
+    color: #3B3B3B;
+}
+
+h1, h2 {
+    font-family: "impact", sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    color: #111111;
+    text-align: center;
+}
+
+h2{
+    text-align: left;
+}
+
+#header{
+    width: 1000px;
+    margin: 200px auto;
+}
+
+#logo h1{
+    line-height: 150px;
+    letter-spacing: -3px;
+    font-size: 11em;
+}
+
+#threeColumns{
+    overflow: hidden;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px 30px;
+
+    background: rgba(255, 255, 255, 0.4)
+}
+
+#threeColumns h2{
+    padding: 0 9px 20px 0;
+    font-size: 50px;
+    letter-spacing: -1px;
+}
+
+#threeColumns #column1{
+    float: left;
+    width: 300px;
+    margin-right: 50px;
+}
+
+#threeColumns #column2{
+    float: left;
+    width: 300px;
+}
+
+#threeColumns #column3{
+    float: right;
+    width: 300px;
+}
