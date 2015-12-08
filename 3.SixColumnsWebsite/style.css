@@ -1,0 +1,92 @@
+body {
+    background-image: url(http://www.publicdomainpictures.net/pictures/110000/velka/snowcapped-mountains-in-wyoming.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-size: cover;
+
+    font-family: "Abel", sans-serif;
+    font-size: 20px;
+    color: #3B3B3B;
+}
+
+h1, h2 {
+    font-family: "Gill Sans MT", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    color: #111111;
+    text-align: center;
+}
+
+img{
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(250, 250, 250, .4);
+}
+
+#header{
+    width: 1000px;
+    margin: 150px auto;
+}
+
+#logo h1{
+    line-height: 150px;
+    letter-spacing: -1px;
+    font-size: 7.5em;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgba(250, 250, 250, 0.5);
+}
+
+#sixColumns{
+    overflow: hidden;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px 30px;
+
+    background: rgba(0, 250, 0, 0.5);
+}
+
+
+#sixColumns h2{
+    padding: 0 9px 20px 0;
+    font-size: 40px;
+    letter-spacing: -2px;
+}
+
+
+#sixColumns #column1{
+    float: left;
+    width: 300px;
+    margin-right: 50px;
+}
+
+#sixColumns #column2{
+    float: left;
+    width: 300px;
+}
+
+#sixColumns #column3{
+    float: right;
+    width: 300px;
+}
+
+#sixColumns #column4{
+    float: left;
+    width: 300px;
+    margin-right: 50px;
+}
+
+#sixColumns #column5{
+    float: left;
+    width: 300px;
+}
+
+#sixColumns #column6{
+    float: right;
+    width: 300px;
+}
